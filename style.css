@@ -442,6 +442,56 @@ transform:scale(1.05);
 }
 
 /* Contact */
+/* Contact Section Spacing Fix */
+#contact {
+    padding-top: 30px;      /* Mela extra gap-ah kurika */
+    padding-bottom: 60px;   /* Form-uku keela nalla gap thara */
+}
+
+/* Headings & Paragraph Spacing */
+.contact h2 {
+    margin-bottom: 12px;
+}
+
+.contact p {
+    margin-bottom: 8px;     /* Email matrum Phone-ku naduvula equal gap */
+}
+
+/* "Let's Work Together" space balance */
+.contact h2:nth-of-type(2) { 
+    margin-top: 45px;       /* Mela irukura paragraph-la irundhu equal gap */
+    margin-bottom: 25px;    /* Form oda first input-ku mela neat gap */
+}
+
+/* Form Layout */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;              /* Input boxes-ku naduvula equal spacing */
+}
+
+/* Input Fields styling */
+input, textarea {
+    padding: 19.5px;
+    background: rgba(255, 255, 255, .08);
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-family: inherit;
+}
+
+/* Form Button Style (Optional - unga theme-ku ethapadi mathikonga) */
+form button {
+    padding: 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    align-self: flex-start; /* Button romba perusa aagama iruka */
+    min-width: 150px;
+}
 
 form{
 
@@ -449,13 +499,13 @@ display:flex;
 
 flex-direction:column;
 
-gap:20px;
+gap: 30px;
 
 }
 
 input,textarea{
 
-padding:18px;
+padding:19.5px;
 
 background:rgba(255,255,255,.08);
 
